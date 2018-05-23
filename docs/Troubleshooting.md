@@ -124,3 +124,11 @@ This is a connection problem between the ELM adapter and your car. Make sure tha
 ---
 
 <br>
+
+### Unable to clear the fault code even with the Mode 04
+
+The error codes which are displayed are first stored in the primary memory. Clearing the fault with Mode 04 code sometimes fails to clear the fault and check engine light remains ON. 
+
+The safe resolution could be to reset the primary error memeory. As the information related to repair verification is stored in secondary error memeory so this seems reasonable to do it.
+
+To reset the primary error memory one can use the code ** 14FF00 **. 
